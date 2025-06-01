@@ -7,3 +7,13 @@
 } @else {
 <p>Reprovado</p>
 }
+
+@for (i of nomes; track $index) {
+    <p>{{i}}</p>
+}
+@switch (linguagem) {
+    @case ('HTML') {<p>Linguagem de Marcação</p>}
+    @case ('CSS') {<p>Linguagem de Estilo</p>}
+    @case ('JavaScript') {<p>Linguagem de Programação</p>}
+    @default {<p>Linguagem não encotrada</p>}
+}

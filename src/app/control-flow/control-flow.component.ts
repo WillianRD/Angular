@@ -8,4 +8,8 @@ import { Component } from '@angular/core';
 })
 export class ControlFlowComponent {
   media : number = 8;
+
+  nomes : String[] = ['Will', 'Leide', 'Yuri']
+
+  linguagem : String = 'CSST';
 }
