@@ -2,5 +2,7 @@
 
 <ul>
     <li *ngFor="let aprovados of lista" [ngStyle]="{'color': aprovados=='Aprovado' ? 'green' : 'red'}">{{aprovados}}</li>
-    <li *ngFor="let i of lista" [ngStyle]="{'color' : i=='Reprovado' ? 'red' : 'green'}">{{i}}</li>
+    <br>
+
+    <li *ngFor="let i of lista" [ngClass]="i =='Aprovado' ? 'fonteVerde' : 'fonteVermelha'">{{i}}</li>
 </ul>
