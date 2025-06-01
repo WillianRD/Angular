@@ -1,2 +1,7 @@
-<h1>{{nome}}</h1>
-<input type="text"[(ngModel)]="nome">
+<h1>Seu nome: {{nome}}</h1>
+<h1>Sua cidade: {{cidade}}</h1>
+
+<form>
+    <input type="text" name=nome [(ngModel)]="nome" placeholder="Seu nome">
+    <input type="text" name=cidade [(ngModel)]="cidade" placeholder="Sua cidade">
+</form>
