@@ -1,0 +1,6 @@
+<h1 [ngStyle]="{'color': condicao ? 'green' : 'red'}">Data de Entrega</h1>
+
+<ul>
+    <li *ngFor="let aprovados of lista" [ngStyle]="{'color': aprovados=='Aprovado' ? 'green' : 'red'}">{{aprovados}}</li>
+    <li *ngFor="let i of lista" [ngStyle]="{'color' : i=='Reprovado' ? 'red' : 'green'}">{{i}}</li>
+</ul>

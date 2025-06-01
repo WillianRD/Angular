@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
   styleUrl: './condicoes-swich.component.css'
 })
 export class CondicoesSwichComponent {
-  linguagem : String = 'HTML';
+  linguagem : String[] = ['Java', 'JavaScript']
 
 }
