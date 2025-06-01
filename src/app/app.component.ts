@@ -6,10 +6,11 @@ import { CondicoesComponent } from './condicao-if/condicoes.component';
 import { CondicaoForComponent } from './condicao-for/condicao-for.component';
 import { CondicoesSwichComponent } from './condicao-swich/condicoes-swich.component';
 import { NgStyleComponent } from './ng-style/ng-style.component';
+import { ControlFlowComponent } from './control-flow/control-flow.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, AnimeComponent, EventosComponent, CondicoesComponent, CondicaoForComponent, CondicoesSwichComponent, NgStyleComponent],
+  imports: [RouterOutlet, AnimeComponent, EventosComponent, CondicoesComponent, CondicaoForComponent, CondicoesSwichComponent, NgStyleComponent, ControlFlowComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
